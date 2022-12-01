@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "outDir": "./out",
+        "allowJs": true,
+        "target": "es5",
+        "resolveJsonModule": true,
+        "noImplicitAny": true,
+        "noImplicitReturns": true,
+        "noImplicitOverride": true,
+        "noFallthroughCasesInSwitch": true,
+        "strict": true,
+    },
+    "include": ["./src/**/*"]
+  }
+  
