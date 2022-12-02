@@ -1,4 +1,5 @@
 #!/bin/bash
 source /home/timerix/.allrc
 echo $PATH
-npm run start
+./build.sh
+node out/src/main/index.js

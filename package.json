@@ -1,16 +1,15 @@
 {
   "name": "server_node",
-  "main": "out/index.js",
+  "main": "out/src/main/index.js",
   "scripts": {
-    "prebuild": "rm -rf out",
-    "build": "tsc",
+    "build": "bash build.sh",
     "prestart": "npm run build",
-    "start": "node out/src/index.js"
+    "start": "node out/src/main/index.js"
   },
   "devDependencies": {
-    "@types/node": "^18.11.9"
   },
   "dependencies": {
+    "@types/node": "^18.11.9",
     "typescript": "^4.9.3"
   }
 }
