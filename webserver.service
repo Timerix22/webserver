@@ -1,0 +1,11 @@
+# put this file in /etc/systemd/system/
+[Unit]
+Description=my nodejs webserver written in typescript
+
+[Service]
+WorkingDirectory=/home/timerix/webserver/
+ExecStart=/bin/bash /home/timerix/webserver/start.sh
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
