@@ -1,0 +1,3 @@
+[submodule "src/github-stats"]
+	path = src/github-stats
+	url = https://github.com/Timerix22/github-readme-stats
