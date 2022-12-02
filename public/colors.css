@@ -1,0 +1,38 @@
+:root {
+    --dark-gray:#353550;
+    --light-gray:#555570;
+    --white: #fafafa;
+    --orange: #ef9709;
+    --purple: #5f0db1;
+}
+
+.dark-gray {
+    color:var(--dark-gray)
+}
+.dark-gray-bg {
+    background-color: var(--dark-gray);
+}
+.light-gray {
+    color:var(--light-gray)
+}
+.light-gray-bg {
+    background-color: var(--light-gray);
+}
+.white {
+    color:var(--white)
+}
+.white-bg {
+    background-color: var(--white);
+}
+.orange {
+    color:var(--orange)
+}
+.orange-bg {
+    background-color: var(--orange);
+}
+.purple {
+    color:var(--purple)
+}
+.purple-bg {
+    background-color: var(--purple);
+}
