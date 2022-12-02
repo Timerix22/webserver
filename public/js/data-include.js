@@ -1,5 +1,6 @@
 document.addEventListener("DOMContentLoaded", resolveAttributes);
 
+// https://github.com/Timerix22/csi.js
 function resolveAttributes() {
 	var elements = document.getElementsByTagName('*'),
 		i;
