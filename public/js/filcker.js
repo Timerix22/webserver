@@ -1,3 +1,5 @@
+document.addEventListener("DOMContentLoaded", flicker);
+
 function flicker() {
     const elems = document.getElementsByClassName('flicker')
     let pos = 0;

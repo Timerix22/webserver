@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<head>
+    <title>Resume</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/css/styles.css"/>
+    <link rel="icon" href="/favicon.ico"/>
+</head>
+<body>
+
+    <!--  SCRIPTS  -->
+    <script src="/js/filcker.js"></script>
+    <script src="/js/data-include.js"></script>
+    <!--markdown parser-->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="/js/githubRepoInjector.js"></script>
+    
+    <!--  HEADER  -->
+    <div data-include="/html/header.html"></div>
+    
+    <h1 class="orange"><strong>Tsimafei Melnik</strong></h1>
+    <h2 class="white">Bachelor Computer Science student</h2>
+    <div style="display:table; width: 100%;">
+
+        <div id="left_column" style="padding: 10px; float: left; height: fit-content;">
+            <h2 class="flicker">Projects</h2>
+            <div github-repo="Timerix22/webserver"></div>
+            <div github-repo="Timerix22/dtlib"></div>
+            <!--div github-repo="Timerix22/mjing"></div-->
+            <div github-repo="Timerix22/kerep"></div>
+            <div github-repo="Timerix22/cobek"></div>
+        </div>
+
+        <div id="right_column" class="light-gray-bg" style="width: fit-content; height:100%; float: right; align-items: rigth;">
+            <embed type="text/html" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Timerix22&langs_count=3&bg_color=FFFFFF00&icon_color=ef9709&title_color=ef9709&text_color=f0f0f0&font=consolas"
+            style="width: 300px;"/>
+        </div>
+
+    </div>
+
+</body>
+</html>
